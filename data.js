@@ -183,7 +183,7 @@ window.navigation_json = [
             "icon": "images/icon_2.png",
             "children": [
               {
-                "text": "Credential",
+                "text": "Competency",
                 "qtitle": "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8",
                 "icon": "images/icon_3.png",
                 "leaf": true,
@@ -193,13 +193,6 @@ window.navigation_json = [
                 "text": "ELO",
                 "qtitle": "Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e",
                 "icon": "images/icon_3.png",
-                "leaf": true,
-                "expanded": false
-              },
-              {
-                "text": "Level",
-                "qtitle": "Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197",
-                "icon": "images/icon_4.png",
                 "leaf": true,
                 "expanded": false
               },
@@ -281,6 +274,13 @@ window.navigation_json = [
             "text": "Exam",
             "qtitle": "Architecture__446374cb-e8db-4d03-a685-017102827f19",
             "icon": "images/icon_3.png",
+            "leaf": true,
+            "expanded": false
+          },
+          {
+            "text": "Level",
+            "qtitle": "Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197",
+            "icon": "images/icon_4.png",
             "leaf": true,
             "expanded": false
           },
@@ -378,50 +378,159 @@ window.navigation_json = [
         "icon": "images/icon_2.png",
         "children": [
           {
-            "text": "SCRE - Foundational",
-            "qtitle": "Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2",
+            "text": "SCRE",
+            "qtitle": "Package__2024804f-e7f9-4f16-9e90-adfb8057cf12",
             "icon": "images/icon_2.png",
             "children": [
               {
-                "text": "",
-                "qtitle": "Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68",
-                "icon": "images/icon_6.png",
-                "leaf": true,
+                "text": "Competencies",
+                "qtitle": "Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc",
+                "icon": "images/icon_2.png",
+                "children": [
+                  {
+                    "text": "13",
+                    "qtitle": "Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.A",
+                    "qtitle": "Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.A.1",
+                    "qtitle": "Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.A.2",
+                    "qtitle": "Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.A.3",
+                    "qtitle": "Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.A.4",
+                    "qtitle": "Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.A.5",
+                    "qtitle": "Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.B",
+                    "qtitle": "Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.C",
+                    "qtitle": "Architecture__f27583b4-7757-46c0-9121-ee288aaabf92",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.D",
+                    "qtitle": "Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.E",
+                    "qtitle": "Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "13.F",
+                    "qtitle": "Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "14",
+                    "qtitle": "Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "15",
+                    "qtitle": "Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  }
+                ],
+                "leaf": false,
                 "expanded": false
               },
               {
-                "text": "",
-                "qtitle": "Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc",
-                "icon": "images/icon_6.png",
-                "leaf": true,
-                "expanded": false
-              },
-              {
-                "text": "",
-                "qtitle": "Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33",
-                "icon": "images/icon_6.png",
-                "leaf": true,
-                "expanded": false
-              },
-              {
-                "text": "",
-                "qtitle": "Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716",
-                "icon": "images/icon_6.png",
-                "leaf": true,
-                "expanded": false
-              },
-              {
-                "text": "",
-                "qtitle": "Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7",
-                "icon": "images/icon_7.png",
-                "leaf": true,
-                "expanded": false
-              },
-              {
-                "text": "",
-                "qtitle": "Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3",
-                "icon": "images/icon_7.png",
-                "leaf": true,
+                "text": "SCRE - Foundational",
+                "qtitle": "Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2",
+                "icon": "images/icon_2.png",
+                "children": [
+                  {
+                    "text": "",
+                    "qtitle": "Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "",
+                    "qtitle": "Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "",
+                    "qtitle": "Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7",
+                    "icon": "images/icon_7.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "",
+                    "qtitle": "Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3",
+                    "icon": "images/icon_7.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "CYB 5610",
+                    "qtitle": "Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716",
+                    "icon": "images/icon_6.png",
+                    "leaf": true,
+                    "expanded": false
+                  }
+                ],
+                "leaf": false,
                 "expanded": false
               }
             ],
@@ -449,7 +558,7 @@ window.navigation_json = [
             "icon": "images/icon_2.png",
             "children": [
               {
-                "text": "Credentials",
+                "text": "Competency",
                 "qtitle": "Diagrams__1f7058d0-36b5-4878-a787-3153ea499599",
                 "icon": "images/icon_8.png",
                 "leaf": true,
@@ -476,15 +585,47 @@ window.navigation_json = [
         "icon": "images/icon_2.png",
         "children": [
           {
-            "text": "SCRE - Foundational",
-            "qtitle": "Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2",
+            "text": "SCRE",
+            "qtitle": "Package__2024804f-e7f9-4f16-9e90-adfb8057cf12",
             "icon": "images/icon_2.png",
             "children": [
               {
-                "text": "Content",
-                "qtitle": "Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110",
-                "icon": "images/icon_9.png",
-                "leaf": true,
+                "text": "Competencies",
+                "qtitle": "Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc",
+                "icon": "images/icon_2.png",
+                "children": [
+                  {
+                    "text": "Competency",
+                    "qtitle": "Diagrams__84cdb9aa-25a4-4035-a338-25e60261e3db",
+                    "icon": "images/icon_9.png",
+                    "leaf": true,
+                    "expanded": false
+                  },
+                  {
+                    "text": "TLO",
+                    "qtitle": "Diagrams__8c70b233-a344-4d7e-be61-99a5d11d374a",
+                    "icon": "images/icon_9.png",
+                    "leaf": true,
+                    "expanded": false
+                  }
+                ],
+                "leaf": false,
+                "expanded": false
+              },
+              {
+                "text": "SCRE - Foundational",
+                "qtitle": "Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2",
+                "icon": "images/icon_2.png",
+                "children": [
+                  {
+                    "text": "Content",
+                    "qtitle": "Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110",
+                    "icon": "images/icon_10.png",
+                    "leaf": true,
+                    "expanded": false
+                  }
+                ],
+                "leaf": false,
                 "expanded": false
               }
             ],
@@ -503,28 +644,28 @@ window.navigation_json = [
           {
             "text": "STEDE",
             "qtitle": "Diagrams__5f887d8e-f993-419f-9bdc-6bd0e121500b",
-            "icon": "images/icon_10.png",
+            "icon": "images/icon_11.png",
             "leaf": true,
             "expanded": false
           },
           {
             "text": "STEDE - Administration",
             "qtitle": "Diagrams__2c12426f-0513-4c2b-8f3d-1df4f9a324a2",
-            "icon": "images/icon_11.png",
+            "icon": "images/icon_12.png",
             "leaf": true,
             "expanded": false
           },
           {
             "text": "STEDE - Customization",
             "qtitle": "Diagrams__a90aa392-3f21-4cf2-8d68-4c531a54d8e9",
-            "icon": "images/icon_11.png",
+            "icon": "images/icon_12.png",
             "leaf": true,
             "expanded": false
           },
           {
             "text": "STEDE - Execution",
             "qtitle": "Diagrams__6bf87e89-19da-4524-a33f-8198553838a4",
-            "icon": "images/icon_11.png",
+            "icon": "images/icon_12.png",
             "leaf": true,
             "expanded": false
           }
@@ -535,7 +676,7 @@ window.navigation_json = [
       {
         "text": "Overview",
         "qtitle": "Diagrams__b40e6a5c-a36a-4eca-a92a-f7542f61c836",
-        "icon": "images/icon_12.png",
+        "icon": "images/icon_13.png",
         "leaf": true,
         "expanded": false
       }
@@ -545,183 +686,9 @@ window.navigation_json = [
   }
 ];
 window.content_data_json = {
-  "Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68": {
-    "title": "",
-    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
-    "html_panel": [],
-    "grid_panel": [
-      {
-        "title": "Characteristics ",
-        "hideHeaders": true,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1"
-          ],
-          "data": [
-            {
-              "col0": "Name ",
-              "col1": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e"
-            },
-            {
-              "col0": "Classifier ",
-              "col1": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "col0",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 192
-          },
-          {
-            "text": "col1",
-            "dataIndex": "col1",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      },
-      {
-        "title": "Slots",
-        "hideHeaders": false,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1",
-            "col2"
-          ],
-          "data": [
-            {
-              "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "The Threat \u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "# ",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 84
-          },
-          {
-            "text": "Name ",
-            "dataIndex": "col1",
-            "flex": 0,
-            "width": 300
-          },
-          {
-            "text": "Value ",
-            "dataIndex": "col2",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      }
-    ],
-    "image_panel": []
-  },
-  "Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33": {
-    "title": "",
-    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
-    "html_panel": [],
-    "grid_panel": [
-      {
-        "title": "Characteristics ",
-        "hideHeaders": true,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1"
-          ],
-          "data": [
-            {
-              "col0": "Name ",
-              "col1": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e"
-            },
-            {
-              "col0": "Classifier ",
-              "col1": "\u003cdiv title\u003d\"Credential\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCredential\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "col0",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 192
-          },
-          {
-            "text": "col1",
-            "dataIndex": "col1",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      },
-      {
-        "title": "Slots",
-        "hideHeaders": false,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1",
-            "col2"
-          ],
-          "data": [
-            {
-              "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"level : Level\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e level : Level\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Foundational\u003c/div\u003e\u003c/br\u003e"
-            },
-            {
-              "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "Cyber Acumen for Adversity-Driven Engineering \u003c/br\u003e"
-            },
-            {
-              "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"number : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e number : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "13 \u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "# ",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 84
-          },
-          {
-            "text": "Name ",
-            "dataIndex": "col1",
-            "flex": 0,
-            "width": 300
-          },
-          {
-            "text": "Value ",
-            "dataIndex": "col2",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      }
-    ],
-    "image_panel": []
-  },
   "Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3": {
     "title": "",
-    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_7.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_7.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [
       {
@@ -771,197 +738,18 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is organized by : Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is organized by : Module\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is organized by : Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is organized by : Module\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is used in : Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is used in : Course\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"is used in : Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is used in : Course\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"CYB 5610\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003eCYB 5610\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
               "col2": "1 \u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "# ",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 84
-          },
-          {
-            "text": "Name ",
-            "dataIndex": "col1",
-            "flex": 0,
-            "width": 300
-          },
-          {
-            "text": "Value ",
-            "dataIndex": "col2",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      }
-    ],
-    "image_panel": []
-  },
-  "Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc": {
-    "title": "",
-    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
-    "html_panel": [],
-    "grid_panel": [
-      {
-        "title": "Characteristics ",
-        "hideHeaders": true,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1"
-          ],
-          "data": [
-            {
-              "col0": "Name ",
-              "col1": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e"
-            },
-            {
-              "col0": "Classifier ",
-              "col1": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "col0",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 192
-          },
-          {
-            "text": "col1",
-            "dataIndex": "col1",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      },
-      {
-        "title": "Slots",
-        "hideHeaders": false,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1",
-            "col2"
-          ],
-          "data": [
-            {
-              "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "Introduction \u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "# ",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 84
-          },
-          {
-            "text": "Name ",
-            "dataIndex": "col1",
-            "flex": 0,
-            "width": 300
-          },
-          {
-            "text": "Value ",
-            "dataIndex": "col2",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      }
-    ],
-    "image_panel": []
-  },
-  "Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716": {
-    "title": "",
-    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
-    "html_panel": [],
-    "grid_panel": [
-      {
-        "title": "Characteristics ",
-        "hideHeaders": true,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1"
-          ],
-          "data": [
-            {
-              "col0": "Name ",
-              "col1": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e"
-            },
-            {
-              "col0": "Classifier ",
-              "col1": "\u003cdiv title\u003d\"Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c\u0027);return false;\"\u003eCourse\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "col0",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 192
-          },
-          {
-            "text": "col1",
-            "dataIndex": "col1",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      },
-      {
-        "title": "Slots",
-        "hideHeaders": false,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1",
-            "col2"
-          ],
-          "data": [
-            {
-              "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "Secure Cyber Resilient Engineering (SCRE) \u003c/br\u003e"
-            },
-            {
-              "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"duration : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e duration : Integer\u003c/div\u003e\u003c/br\u003e",
-              "col2": "4 \u003c/br\u003e"
-            },
-            {
-              "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"delivery : Delivery\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e delivery : Delivery\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Asynchronous\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Asynchronous\u003c/div\u003e\u003c/br\u003e"
-            },
-            {
-              "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"number : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e number : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "CYB 5610 \u003c/br\u003e"
             }
           ]
         },
@@ -992,7 +780,7 @@ window.content_data_json = {
   },
   "Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7": {
     "title": "",
-    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_7.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_7.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [
       {
@@ -1042,18 +830,182 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is organized by : Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is organized by : Module\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is organized by : Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is organized by : Module\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is used in : Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is used in : Course\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"is used in : Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is used in : Course\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"CYB 5610\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003eCYB 5610\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
               "col2": "2 \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68": {
+    "title": "",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7eb3773e-336b-4443-8e6f-7e8ecdec6b68\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "The Threat \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc": {
+    "title": "",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__6bec0391-a622-4607-9a1e-b0d8fa30c7dc\u0027);return false;\"\u003e\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Introduction \u003c/br\u003e"
             }
           ]
         },
@@ -1101,6 +1053,1204 @@ window.content_data_json = {
     "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [],
+    "image_panel": []
+  },
+  "Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520": {
+    "title": "13",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e13\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e13\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCompetency\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Cyber Acumen for Adversity-Driven Engineering \u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"description : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e description : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Acquire and develop awareness, insights, and skills necessary to specify, design, and realize systems given the protection concerns enabled/induced by or within contested cyberspace, and the protection concerns associated with the computational, communication, and physical (i.e., cyber-physical characteristics of systems). The protection concerns of contested cyberspace span the entire life cycle of the system and its enabling and supporting systems, the entire life cycle of technology, data, and information associated with the system; and includes the maintenance, logistics, and supply chain. \u003c/br\u003e"
+            },
+            {
+              "col0": "3 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : TLO\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"13.A\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e13.A\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.B\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e13.B\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.D\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e13.D\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.E\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e13.E\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.F\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e13.F\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d": {
+    "title": "13.A",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.A\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e13.A\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.A\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e13.A\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Competency\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"13\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e13\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student identifies various techniques for designing secure and resilient solutions by utilizing modern techniques throughout the product lifecycle.  \u003c/br\u003e"
+            },
+            {
+              "col0": "3 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : ELO\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"13.A.1\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e\u0027);return false;\"\u003e13.A.1\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.A.2\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd\u0027);return false;\"\u003e13.A.2\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.A.3\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70\u0027);return false;\"\u003e13.A.3\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.A.4\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8\u0027);return false;\"\u003e13.A.4\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.A.5\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e\u0027);return false;\"\u003e13.A.5\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e": {
+    "title": "13.A.1",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.A.1\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e\u0027);return false;\"\u003e13.A.1\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.A.1\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e\u0027);return false;\"\u003e13.A.1\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student can identify difference between system assurance and system resilience. \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd": {
+    "title": "13.A.2",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.A.2\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd\u0027);return false;\"\u003e13.A.2\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.A.2\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd\u0027);return false;\"\u003e13.A.2\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student can identify directives where specific cyber issues are addressed (Guides, GAO Reports reviewed). \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70": {
+    "title": "13.A.3",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.A.3\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70\u0027);return false;\"\u003e13.A.3\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.A.3\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70\u0027);return false;\"\u003e13.A.3\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student will identify techniques for designing secure and resilient solutions from provided material. \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8": {
+    "title": "13.A.4",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.A.4\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8\u0027);return false;\"\u003e13.A.4\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.A.4\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8\u0027);return false;\"\u003e13.A.4\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student will identify applicable emergent cyber solutions, principles, concepts, and techniques described in SCRE Adversity Driven Engineering. \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e": {
+    "title": "13.A.5",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.A.5\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e\u0027);return false;\"\u003e13.A.5\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.A.5\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e\u0027);return false;\"\u003e13.A.5\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student will identify areas the organization needs to address to achieve a resilient system during an adversarial scenario. \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175": {
+    "title": "13.B",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.B\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e13.B\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.B\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e13.B\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Competency\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"13\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e13\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student Identifies applicable emergent cyber solutions, principles, concepts, and techniques.  \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__f27583b4-7757-46c0-9121-ee288aaabf92": {
+    "title": "13.C",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.C\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f27583b4-7757-46c0-9121-ee288aaabf92\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f27583b4-7757-46c0-9121-ee288aaabf92\u0027);return false;\"\u003e13.C\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.C\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f27583b4-7757-46c0-9121-ee288aaabf92\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f27583b4-7757-46c0-9121-ee288aaabf92\u0027);return false;\"\u003e13.C\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student summarizes and differentiates the adverse conditions that impact traditional system, networks, and communication deficiencies.  Translate into appropriate requirements. (Demonstrate they can find weaknesses). \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b": {
+    "title": "13.D",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.D\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e13.D\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.D\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e13.D\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student gives examples of exposure and likelihood of susceptibilities.  The student will develop the skills needed to conduct vulnerability assessments. \u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Competency\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"13\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e13\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0": {
+    "title": "13.E",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.E\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e13.E\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.E\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e13.E\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Student will describe the needs of the organization and ability to achieve secure and resilient systems. Student will distinguish between various defensive approaches and determine best approaches given organization’s constraints. \u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Competency\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"13\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e13\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a": {
+    "title": "13.F",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"13.F\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e13.F\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"13.F\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e13.F\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Outline risk mitigation strategies to the Adaptive Acquisition framework and cyber activities throughout the acquisition lifecycle (engineering V) to show complete Cyber traceability of all requirements to include Test and Evaluation.   \u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Competency\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"13\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e13\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17": {
+    "title": "14",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"14\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17\u0027);return false;\"\u003e14\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"14\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17\u0027);return false;\"\u003e14\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCompetency\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Adversity-Driven Requirements Derivation \u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"description : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e description : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Generate system, communications, and network requirements that accurate reflect concerns driven by contested cyberspace. Applies equally to stakeholder requirements definition and requirements analysis of systems engineering. \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705": {
+    "title": "15",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"15\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705\u0027);return false;\"\u003e15\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"15\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705\u0027);return false;\"\u003e15\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCompetency\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Analysis of Adversity and Adverse Effects \u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"description : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e description : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Provide adversity-driven technical data about system, communication, and network behaviors and outcomes that is sufficient to inform life cycle engineering, programmatic, and risk decisions. \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
     "image_panel": []
   },
   "Package__bee1d4fa-0bb9-4802-bf97-eb7397884391": {
@@ -1161,23 +2311,23 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"description : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e description : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"description : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e description : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Asset\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Asset\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8d8d5a8-3520-49a4-9157-237d7ea412e5\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8d8d5a8-3520-49a4-9157-237d7ea412e5\u0027);return false;\"\u003eAsset\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1185,15 +2335,15 @@ window.content_data_json = {
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"type : Task\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e type : Task\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"type : Task\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e type : Task\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Task\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7149c4c7-3818-4c73-ab89-f6aa8e4cc8c4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7149c4c7-3818-4c73-ab89-f6aa8e4cc8c4\u0027);return false;\"\u003eTask\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1292,32 +2442,32 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Requirements\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Requirements\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Requirements\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Requirements\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"AoA\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e AoA\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"AoA\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e AoA\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Prototype\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Prototype\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Prototype\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Prototype\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"System Design\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e System Design\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"System Design\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e System Design\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Develop System\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Develop System\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Develop System\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Develop System\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "6 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"T\u0026E\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e T\u0026E\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"T\u0026E\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e T\u0026E\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -1506,15 +2656,15 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"media : Media\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e media : Media\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"media : Media\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e media : Media\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Media\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c22eac09-8f4a-4772-a2e3-d53fe84684df\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c22eac09-8f4a-4772-a2e3-d53fe84684df\u0027);return false;\"\u003eMedia\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1522,15 +2672,15 @@ window.content_data_json = {
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"mediaContent : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e mediaContent : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"mediaContent : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e mediaContent : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Module\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Module\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1538,15 +2688,15 @@ window.content_data_json = {
             },
             {
               "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"narration : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e narration : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"narration : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e narration : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "6 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : ELO\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : ELO\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1554,7 +2704,7 @@ window.content_data_json = {
             },
             {
               "col0": "7 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Activity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Activity\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Activity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Activity\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Activity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__681f2bf3-db63-4b17-b58e-0f1d300ea097\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__681f2bf3-db63-4b17-b58e-0f1d300ea097\u0027);return false;\"\u003eActivity\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1633,7 +2783,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -1695,6 +2845,108 @@ window.content_data_json = {
     ],
     "image_panel": []
   },
+  "Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716": {
+    "title": "CYB 5610",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"CYB 5610\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003eCYB 5610\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"CYB 5610\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716\u0027);return false;\"\u003eCYB 5610\u003ca\u003e\u003c/div\u003e"
+            },
+            {
+              "col0": "Classifier ",
+              "col1": "\u003cdiv title\u003d\"Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c\u0027);return false;\"\u003eCourse\u003ca\u003e\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Slots",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "Secure Cyber Resilient Engineering (SCRE) \u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"duration : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e duration : Integer\u003c/div\u003e\u003c/br\u003e",
+              "col2": "4 \u003c/br\u003e"
+            },
+            {
+              "col0": "3 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"delivery : Delivery\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e delivery : Delivery\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Asynchronous\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Asynchronous\u003c/div\u003e\u003c/br\u003e"
+            },
+            {
+              "col0": "4 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"number : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e number : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "CYB 5610 \u003c/br\u003e"
+            },
+            {
+              "col0": "5 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"level : Level\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e level : Level\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Foundational\u003c/div\u003e\u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Value ",
+            "dataIndex": "col2",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
   "Architecture__71530754-cbd9-4e01-a49b-446ca5526953": {
     "title": "Case Study",
     "path": "\u003cdiv title\u003d\"1 - Meta Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e1 - Meta Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__71530754-cbd9-4e01-a49b-446ca5526953\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__71530754-cbd9-4e01-a49b-446ca5526953\u0027);return false;\"\u003eCase Study\u003ca\u003e\u003c/div\u003e",
@@ -1746,23 +2998,23 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"description : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e description : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"description : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e description : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"milestone : Milestone\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e milestone : Milestone\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"milestone : Milestone\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e milestone : Milestone\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Milestone\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__5180f4ae-cd02-47e5-9484-33ca86810918\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__5180f4ae-cd02-47e5-9484-33ca86810918\u0027);return false;\"\u003eMilestone\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1770,7 +3022,7 @@ window.content_data_json = {
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"review : Review\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e review : Review\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"review : Review\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e review : Review\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Review\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__9c87f032-7386-43bc-bab8-b074940d7ac9\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__9c87f032-7386-43bc-bab8-b074940d7ac9\u0027);return false;\"\u003eReview\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1778,7 +3030,7 @@ window.content_data_json = {
             },
             {
               "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Module\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Module\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1786,7 +3038,7 @@ window.content_data_json = {
             },
             {
               "col0": "6 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"activity : Activity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e activity : Activity\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"activity : Activity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e activity : Activity\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Activity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__5ff0c843-95b0-4755-83b0-35981e62f8e5\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__5ff0c843-95b0-4755-83b0-35981e62f8e5\u0027);return false;\"\u003eActivity\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1794,23 +3046,23 @@ window.content_data_json = {
             },
             {
               "col0": "7 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"modelVersion : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e modelVersion : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"modelVersion : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e modelVersion : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "8 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"modelContent : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e modelContent : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"modelContent : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e modelContent : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "9 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"tool : Tool\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e tool : Tool\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"tool : Tool\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e tool : Tool\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Tool\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6d9dbad-e34f-4a2a-a6f8-911797b33601\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6d9dbad-e34f-4a2a-a6f8-911797b33601\u0027);return false;\"\u003eTool\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1818,15 +3070,15 @@ window.content_data_json = {
             },
             {
               "col0": "10 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"toolVersion : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e toolVersion : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"toolVersion : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e toolVersion : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "11 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"exports : Diagram\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e exports : Diagram\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"exports : Diagram\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e exports : Diagram\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Diagram\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e6aa3ae6-ebee-468a-bde9-336fe3c562b4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e6aa3ae6-ebee-468a-bde9-336fe3c562b4\u0027);return false;\"\u003eDiagram\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "0..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1834,7 +3086,7 @@ window.content_data_json = {
             },
             {
               "col0": "12 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"generates : Report\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e generates : Report\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"generates : Report\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e generates : Report\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Report\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ee945a68-31aa-4336-86a9-c297c887c186\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ee945a68-31aa-4336-86a9-c297c887c186\u0027);return false;\"\u003eReport\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "0..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -1885,9 +3137,294 @@ window.content_data_json = {
     ],
     "image_panel": []
   },
+  "Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc": {
+    "title": "Competencies",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [],
+    "image_panel": []
+  },
+  "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8": {
+    "title": "Competency",
+    "path": "\u003cdiv title\u003d\"1 - Meta Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e1 - Meta Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"1.1 DAU\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e1.1 DAU\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCompetency\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "Characteristics ",
+        "hideHeaders": true,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1"
+          ],
+          "data": [
+            {
+              "col0": "Name ",
+              "col1": "\u003cdiv title\u003d\"Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCompetency\u003ca\u003e\u003c/div\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "col0",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 192
+          },
+          {
+            "text": "col1",
+            "dataIndex": "col1",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      },
+      {
+        "title": "Attributes",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2",
+            "col3",
+            "col4",
+            "col5"
+          ],
+          "data": [
+            {
+              "col0": "1 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : TLO\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
+              "col3": "1..* \u003c/br\u003e",
+              "col4": " \u003c/br\u003e",
+              "col5": " \u003c/br\u003e"
+            },
+            {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col3": " \u003c/br\u003e",
+              "col4": " \u003c/br\u003e",
+              "col5": " \u003c/br\u003e"
+            },
+            {
+              "col0": "3 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"description : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e description : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col3": " \u003c/br\u003e",
+              "col4": " \u003c/br\u003e",
+              "col5": " \u003c/br\u003e"
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 84
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Type ",
+            "dataIndex": "col2",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "Multiplicity ",
+            "dataIndex": "col3",
+            "flex": 0,
+            "width": 156
+          },
+          {
+            "text": "Default value ",
+            "dataIndex": "col4",
+            "flex": 0,
+            "width": 168
+          },
+          {
+            "text": "Documentation ",
+            "dataIndex": "col5",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Diagrams__1f7058d0-36b5-4878-a787-3153ea499599": {
+    "title": "Competency",
+    "path": "\u003cdiv title\u003d\"1 - Meta Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e1 - Meta Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"1.1 DAU\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e1.1 DAU\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__1f7058d0-36b5-4878-a787-3153ea499599\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_8.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__1f7058d0-36b5-4878-a787-3153ea499599\u0027);return false;\"\u003eCompetency\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [],
+    "image_panel": [
+      {
+        "title": "",
+        "image": "diagrams/diagram_Diagrams__EPID__PROJECT-86cb2c21-f86b-4d6b-a882-562e1191d0d8_XzE5XzBfNF8xMzE4MDNjZl8xNjYxNzgwNjM0OTc3XzYzMzM3Ml80NzIwNQ.png",
+        "width": 767,
+        "height": 472,
+        "collapsible": false,
+        "map": {
+          "Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f": [
+            {
+              "x": 64,
+              "y": 239,
+              "width": 112,
+              "height": 42
+            }
+          ],
+          "Architecture__f8d8d5a8-3520-49a4-9157-237d7ea412e5": [
+            {
+              "x": 64,
+              "y": 386,
+              "width": 112,
+              "height": 42
+            }
+          ],
+          "Architecture__c990f722-b352-4082-b844-bba8ba97582e": [
+            {
+              "x": 624,
+              "y": 386,
+              "width": 112,
+              "height": 42
+            }
+          ],
+          "Architecture__446374cb-e8db-4d03-a685-017102827f19": [
+            {
+              "x": 624,
+              "y": 302,
+              "width": 112,
+              "height": 42
+            }
+          ],
+          "Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e": [
+            {
+              "x": 309,
+              "y": 365,
+              "width": 154,
+              "height": 69
+            }
+          ],
+          "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8": [
+            {
+              "x": 306,
+              "y": 71,
+              "width": 157,
+              "height": 69
+            }
+          ],
+          "Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0": [
+            {
+              "x": 306,
+              "y": 225,
+              "width": 157,
+              "height": 69
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Diagrams__84cdb9aa-25a4-4035-a338-25e60261e3db": {
+    "title": "Competency",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__84cdb9aa-25a4-4035-a338-25e60261e3db\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_9.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__84cdb9aa-25a4-4035-a338-25e60261e3db\u0027);return false;\"\u003eCompetency\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2",
+            "col3",
+            "col4",
+            "col5"
+          ],
+          "data": [
+            {
+              "col0": "1 ",
+              "col1": "\u003cdiv title\u003d\"13\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520\u0027);return false;\"\u003e13\u003ca\u003e\u003c/div\u003e",
+              "col2": "Cyber Acumen for Adversity-Driven Engineering ",
+              "col3": "Acquire and develop awareness, insights, and skills necessary to specify, design, and realize systems given the protection concerns enabled/induced by or within contested cyberspace, and the protection concerns associated with the computational, communication, and physical (i.e., cyber-physical characteristics of systems). The protection concerns of contested cyberspace span the entire life cycle of the system and its enabling and supporting systems, the entire life cycle of technology, data, and information associated with the system; and includes the maintenance, logistics, and supply chain. ",
+              "col4": "\u003cdiv title\u003d\"13.A\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e13.A\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.B\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e13.B\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.D\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e13.D\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.E\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e13.E\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.F\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e13.F\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
+              "col5": "Student identifies various techniques for designing secure and resilient solutions by utilizing modern techniques throughout the product lifecycle.  \u003c/br\u003eStudent Identifies applicable emergent cyber solutions, principles, concepts, and techniques.  \u003c/br\u003eStudent gives examples of exposure and likelihood of susceptibilities.  The student will develop the skills needed to conduct vulnerability assessments. \u003c/br\u003eStudent will describe the needs of the organization and ability to achieve secure and resilient systems. Student will distinguish between various defensive approaches and determine best approaches given organization’s constraints. \u003c/br\u003eOutline risk mitigation strategies to the Adaptive Acquisition framework and cyber activities throughout the acquisition lifecycle (engineering V) to show complete Cyber traceability of all requirements to include Test and Evaluation.   \u003c/br\u003e"
+            },
+            {
+              "col0": "2 ",
+              "col1": "\u003cdiv title\u003d\"14\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17\u0027);return false;\"\u003e14\u003ca\u003e\u003c/div\u003e",
+              "col2": "Adversity-Driven Requirements Derivation ",
+              "col3": "Generate system, communications, and network requirements that accurate reflect concerns driven by contested cyberspace. Applies equally to stakeholder requirements definition and requirements analysis of systems engineering. ",
+              "col4": "",
+              "col5": " "
+            },
+            {
+              "col0": "3 ",
+              "col1": "\u003cdiv title\u003d\"15\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705\u0027);return false;\"\u003e15\u003ca\u003e\u003c/div\u003e",
+              "col2": "Analysis of Adversity and Adverse Effects ",
+              "col3": "Provide adversity-driven technical data about system, communication, and network behaviors and outcomes that is sufficient to inform life cycle engineering, programmatic, and risk decisions. ",
+              "col4": "",
+              "col5": " "
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 30
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "title : String ",
+            "dataIndex": "col2",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "description : String ",
+            "dataIndex": "col3",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": " : TLO ",
+            "dataIndex": "col4",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": ":TLO.title : String ",
+            "dataIndex": "col5",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": false
+      }
+    ],
+    "image_panel": []
+  },
   "Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110": {
     "title": "Content",
-    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Content\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_9.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110\u0027);return false;\"\u003eContent\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Content\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_10.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110\u0027);return false;\"\u003eContent\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [],
     "image_panel": [
@@ -1960,14 +3497,6 @@ window.content_data_json = {
               "y": 85,
               "width": 336,
               "height": 107
-            }
-          ],
-          "Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33": [
-            {
-              "x": 624,
-              "y": 92,
-              "width": 343,
-              "height": 84
             }
           ]
         }
@@ -2118,31 +3647,31 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"number : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e number : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"number : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e number : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"objective : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e objective : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"objective : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e objective : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is organized by : Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is organized by : Module\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is organized by : Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is organized by : Module\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -2150,7 +3679,7 @@ window.content_data_json = {
             },
             {
               "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"delivery : Delivery\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e delivery : Delivery\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"delivery : Delivery\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e delivery : Delivery\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Delivery\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__9c07859a-9882-4a0e-849c-c71189a4ace3\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__9c07859a-9882-4a0e-849c-c71189a4ace3\u0027);return false;\"\u003eDelivery\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -2158,16 +3687,16 @@ window.content_data_json = {
             },
             {
               "col0": "6 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"duration : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e duration : Integer\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"duration : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e duration : Integer\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": "Duration in hours. \u003c/br\u003e"
             },
             {
               "col0": "7 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Credential\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Credential\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Credential\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCredential\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"level : Level\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e level : Level\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Level\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197\u0027);return false;\"\u003eLevel\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -2268,8 +3797,8 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -2347,7 +3876,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -2437,7 +3966,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -2527,7 +4056,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -2617,7 +4146,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -2707,7 +4236,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -2769,229 +4298,6 @@ window.content_data_json = {
     ],
     "image_panel": []
   },
-  "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8": {
-    "title": "Credential",
-    "path": "\u003cdiv title\u003d\"1 - Meta Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e1 - Meta Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"1.1 DAU\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e1.1 DAU\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Credential\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCredential\u003ca\u003e\u003c/div\u003e",
-    "html_panel": [],
-    "grid_panel": [
-      {
-        "title": "Characteristics ",
-        "hideHeaders": true,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1"
-          ],
-          "data": [
-            {
-              "col0": "Name ",
-              "col1": "\u003cdiv title\u003d\"Credential\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCredential\u003ca\u003e\u003c/div\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "col0",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 192
-          },
-          {
-            "text": "col1",
-            "dataIndex": "col1",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      },
-      {
-        "title": "Attributes",
-        "hideHeaders": false,
-        "data_store": {
-          "fields": [
-            "col0",
-            "col1",
-            "col2",
-            "col3",
-            "col4",
-            "col5"
-          ],
-          "data": [
-            {
-              "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"number : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e number : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
-              "col3": " \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : TLO\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
-              "col3": "1..* \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"satisfied by : Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e satisfied by : Course\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c\u0027);return false;\"\u003eCourse\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
-              "col3": "1..* \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
-              "col3": " \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"level : Level\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e level : Level\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Level\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197\u0027);return false;\"\u003eLevel\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
-              "col3": " \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "6 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"ids : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e ids : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
-              "col3": " \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            }
-          ]
-        },
-        "columns": [
-          {
-            "text": "# ",
-            "dataIndex": "col0",
-            "flex": 0,
-            "width": 84
-          },
-          {
-            "text": "Name ",
-            "dataIndex": "col1",
-            "flex": 0,
-            "width": 300
-          },
-          {
-            "text": "Type ",
-            "dataIndex": "col2",
-            "flex": 0,
-            "width": 300
-          },
-          {
-            "text": "Multiplicity ",
-            "dataIndex": "col3",
-            "flex": 0,
-            "width": 156
-          },
-          {
-            "text": "Default value ",
-            "dataIndex": "col4",
-            "flex": 0,
-            "width": 168
-          },
-          {
-            "text": "Documentation ",
-            "dataIndex": "col5",
-            "flex": 1,
-            "width": -1
-          }
-        ],
-        "collapsible": true
-      }
-    ],
-    "image_panel": []
-  },
-  "Diagrams__1f7058d0-36b5-4878-a787-3153ea499599": {
-    "title": "Credentials",
-    "path": "\u003cdiv title\u003d\"1 - Meta Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e1 - Meta Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"1.1 DAU\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e1.1 DAU\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Credentials\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__1f7058d0-36b5-4878-a787-3153ea499599\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_8.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__1f7058d0-36b5-4878-a787-3153ea499599\u0027);return false;\"\u003eCredentials\u003ca\u003e\u003c/div\u003e",
-    "html_panel": [],
-    "grid_panel": [],
-    "image_panel": [
-      {
-        "title": "",
-        "image": "diagrams/diagram_Diagrams__EPID__PROJECT-86cb2c21-f86b-4d6b-a882-562e1191d0d8_XzE5XzBfNF8xMzE4MDNjZl8xNjYxNzgwNjM0OTc3XzYzMzM3Ml80NzIwNQ.png",
-        "width": 942,
-        "height": 501,
-        "collapsible": false,
-        "map": {
-          "Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197": [
-            {
-              "x": 498,
-              "y": 78,
-              "width": 80,
-              "height": 88
-            }
-          ],
-          "Architecture__446374cb-e8db-4d03-a685-017102827f19": [
-            {
-              "x": 603,
-              "y": 386,
-              "width": 91,
-              "height": 35
-            }
-          ],
-          "Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c": [
-            {
-              "x": 64,
-              "y": 85,
-              "width": 98,
-              "height": 35
-            }
-          ],
-          "Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f": [
-            {
-              "x": 64,
-              "y": 239,
-              "width": 105,
-              "height": 35
-            }
-          ],
-          "Architecture__f8d8d5a8-3520-49a4-9157-237d7ea412e5": [
-            {
-              "x": 64,
-              "y": 386,
-              "width": 105,
-              "height": 35
-            }
-          ],
-          "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8": [
-            {
-              "x": 306,
-              "y": 57,
-              "width": 157,
-              "height": 97
-            }
-          ],
-          "Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0": [
-            {
-              "x": 306,
-              "y": 225,
-              "width": 157,
-              "height": 83
-            }
-          ],
-          "Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e": [
-            {
-              "x": 306,
-              "y": 365,
-              "width": 157,
-              "height": 69
-            }
-          ]
-        }
-      }
-    ]
-  },
   "Architecture__9c07859a-9882-4a0e-849c-c71189a4ace3": {
     "title": "Delivery",
     "path": "\u003cdiv title\u003d\"1 - Meta Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e1 - Meta Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Delivery\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__9c07859a-9882-4a0e-849c-c71189a4ace3\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__9c07859a-9882-4a0e-849c-c71189a4ace3\u0027);return false;\"\u003eDelivery\u003ca\u003e\u003c/div\u003e",
@@ -3040,12 +4346,12 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Asynchronous\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Asynchronous\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Asynchronous\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Asynchronous\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Synchronous\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Synchronous\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Synchronous\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Synchronous\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -3123,17 +4429,17 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"UC\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e UC\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"UC\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e UC\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"BDD\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e BDD\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"BDD\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e BDD\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"IBD\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e IBD\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"IBD\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e IBD\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -3214,7 +4520,7 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Case Study\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Case Study\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__71530754-cbd9-4e01-a49b-446ca5526953\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__71530754-cbd9-4e01-a49b-446ca5526953\u0027);return false;\"\u003eCase Study\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -3222,15 +4528,15 @@ window.content_data_json = {
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"type : Diagram\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e type : Diagram\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"type : Diagram\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e type : Diagram\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Diagram\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e6aa3ae6-ebee-468a-bde9-336fe3c562b4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e6aa3ae6-ebee-468a-bde9-336fe3c562b4\u0027);return false;\"\u003eDiagram\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -3238,8 +4544,8 @@ window.content_data_json = {
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"diagramContent : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e diagramContent : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"diagramContent : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e diagramContent : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -3340,32 +4646,32 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"number : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e number : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
-              "col3": " \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is satisfied by : Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is satisfied by : Asset\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is satisfied by : Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is satisfied by : Asset\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8d8d5a8-3520-49a4-9157-237d7ea412e5\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8d8d5a8-3520-49a4-9157-237d7ea412e5\u0027);return false;\"\u003eAsset\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col3": " \u003c/br\u003e",
+              "col4": " \u003c/br\u003e",
+              "col5": " \u003c/br\u003e"
+            },
+            {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is evaluated by : Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is evaluated by : Exam\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__446374cb-e8db-4d03-a685-017102827f19\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__446374cb-e8db-4d03-a685-017102827f19\u0027);return false;\"\u003eExam\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is evaluated by : Question\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is evaluated by : Question\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Question\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c990f722-b352-4082-b844-bba8ba97582e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c990f722-b352-4082-b844-bba8ba97582e\u0027);return false;\"\u003eQuestion\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : TLO\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -3466,15 +4772,15 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Module\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Module\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1 \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -3482,7 +4788,7 @@ window.content_data_json = {
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"evaluates : Student\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e evaluates : Student\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"evaluates : Student\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e evaluates : Student\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Student\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__25b0ba1a-ea4a-429b-a24a-230c37d7df68\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__25b0ba1a-ea4a-429b-a24a-230c37d7df68\u0027);return false;\"\u003eStudent\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "0..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -3490,17 +4796,9 @@ window.content_data_json = {
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Question\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Question\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Question\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Question\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Question\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c990f722-b352-4082-b844-bba8ba97582e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c990f722-b352-4082-b844-bba8ba97582e\u0027);return false;\"\u003eQuestion\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : ELO\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
-              "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             }
@@ -3577,7 +4875,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -3739,7 +5037,7 @@ window.content_data_json = {
   },
   "Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197": {
     "title": "Level",
-    "path": "\u003cdiv title\u003d\"1 - Meta Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e1 - Meta Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"1.1 DAU\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4\u0027);return false;\"\u003e1.1 DAU\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Level\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197\u0027);return false;\"\u003eLevel\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"1 - Meta Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__04e512b9-6019-4339-ab75-e4b03439db15\u0027);return false;\"\u003e1 - Meta Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Level\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_4.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197\u0027);return false;\"\u003eLevel\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [
       {
@@ -3785,17 +5083,17 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Foundational\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Foundational\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Introductory\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Introductory\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Introductory\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Introductory\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Practictioner\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Practictioner\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Practictioner\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Practictioner\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -3853,7 +5151,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -3953,7 +5251,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -4043,7 +5341,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -4133,7 +5431,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -4223,7 +5521,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -4333,17 +5631,17 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Lecture\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Lecture\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Lecture\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Lecture\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Video\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Video\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Video\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Video\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"PPT\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e PPT\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"PPT\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e PPT\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -4421,17 +5719,17 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"A\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e A\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"A\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e A\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"B\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e B\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"B\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e B\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"C\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e C\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"C\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e C\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -4512,15 +5810,15 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is used in : Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is used in : Course\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is used in : Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is used in : Course\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Course\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c\u0027);return false;\"\u003eCourse\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -4528,7 +5826,7 @@ window.content_data_json = {
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"provides example : Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e provides example : Case Study\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"provides example : Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e provides example : Case Study\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__71530754-cbd9-4e01-a49b-446ca5526953\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__71530754-cbd9-4e01-a49b-446ca5526953\u0027);return false;\"\u003eCase Study\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "0..1 \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -4536,7 +5834,7 @@ window.content_data_json = {
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is evaluated by : Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is evaluated by : Exam\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is evaluated by : Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is evaluated by : Exam\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__446374cb-e8db-4d03-a685-017102827f19\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__446374cb-e8db-4d03-a685-017102827f19\u0027);return false;\"\u003eExam\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "0..1 \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -4544,7 +5842,7 @@ window.content_data_json = {
             },
             {
               "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is organized by : Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is organized by : Asset\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is organized by : Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is organized by : Asset\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Asset\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8d8d5a8-3520-49a4-9157-237d7ea412e5\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f8d8d5a8-3520-49a4-9157-237d7ea412e5\u0027);return false;\"\u003eAsset\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -4552,7 +5850,7 @@ window.content_data_json = {
             },
             {
               "col0": "6 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : TLO\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : TLO\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c2964337-0666-4063-95e5-e7d83d2e24e0\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -4654,8 +5952,8 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"order : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e order : Integer\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -4707,71 +6005,87 @@ window.content_data_json = {
   },
   "Diagrams__b40e6a5c-a36a-4eca-a92a-f7542f61c836": {
     "title": "Overview",
-    "path": "\u003cdiv title\u003d\"Overview\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__b40e6a5c-a36a-4eca-a92a-f7542f61c836\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_12.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__b40e6a5c-a36a-4eca-a92a-f7542f61c836\u0027);return false;\"\u003eOverview\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"Overview\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__b40e6a5c-a36a-4eca-a92a-f7542f61c836\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__b40e6a5c-a36a-4eca-a92a-f7542f61c836\u0027);return false;\"\u003eOverview\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [],
     "image_panel": [
       {
         "title": "",
         "image": "diagrams/diagram_Diagrams__EPID__PROJECT-86cb2c21-f86b-4d6b-a882-562e1191d0d8_XzE5XzBfNF8xMzE4MDNjZl8xNjYxODcxMzA0MDc5Xzk0NTAxNV80NTY5OQ.png",
-        "width": 725,
-        "height": 417,
+        "width": 669,
+        "height": 543,
         "collapsible": false,
         "map": {
+          "Diagrams__8c70b233-a344-4d7e-be61-99a5d11d374a": [
+            {
+              "x": 161,
+              "y": 372,
+              "width": 48,
+              "height": 44
+            }
+          ],
           "Diagrams__5f887d8e-f993-419f-9bdc-6bd0e121500b": [
             {
-              "x": 512,
-              "y": 267,
+              "x": 498,
+              "y": 330,
               "width": 49,
               "height": 44
             }
           ],
-          "Package__349b9978-c3a0-413d-b3d2-8bef61dc91c4": [
+          "Diagrams__1c76ef6b-57a6-41cb-892a-dc0daed8ab69": [
             {
-              "x": 246,
-              "y": 106,
-              "width": 100,
-              "height": 60
+              "x": 161,
+              "y": 155,
+              "width": 49,
+              "height": 44
             }
           ],
-          "Package__04e512b9-6019-4339-ab75-e4b03439db15": [
+          "Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110": [
             {
-              "x": 78,
-              "y": 106,
-              "width": 103,
-              "height": 60
+              "x": 157,
+              "y": 421,
+              "width": 56,
+              "height": 44
+            }
+          ],
+          "Diagrams__1f7058d0-36b5-4878-a787-3153ea499599": [
+            {
+              "x": 145,
+              "y": 218,
+              "width": 80,
+              "height": 44
+            }
+          ],
+          "Diagrams__84cdb9aa-25a4-4035-a338-25e60261e3db": [
+            {
+              "x": 145,
+              "y": 323,
+              "width": 80,
+              "height": 44
             }
           ],
           "Diagrams__6bf87e89-19da-4524-a33f-8198553838a4": [
             {
-              "x": 477,
-              "y": 211,
+              "x": 467,
+              "y": 274,
               "width": 112,
               "height": 44
             }
           ],
           "Diagrams__a90aa392-3f21-4cf2-8d68-4c531a54d8e9": [
             {
-              "x": 463,
-              "y": 155,
+              "x": 454,
+              "y": 218,
               "width": 137,
               "height": 44
             }
           ],
           "Diagrams__2c12426f-0513-4c2b-8f3d-1df4f9a324a2": [
             {
-              "x": 456,
-              "y": 99,
+              "x": 454,
+              "y": 162,
               "width": 138,
               "height": 44
-            }
-          ],
-          "Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2": [
-            {
-              "x": 134,
-              "y": 232,
-              "width": 143,
-              "height": 60
             }
           ]
         }
@@ -4829,32 +6143,40 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"question : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e question : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"question : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e question : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"choices : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e choices : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"choices : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e choices : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": "* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"answer : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e answer : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"answer : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e answer : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Exam\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Exam\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__446374cb-e8db-4d03-a685-017102827f19\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__446374cb-e8db-4d03-a685-017102827f19\u0027);return false;\"\u003eExam\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
+              "col3": " \u003c/br\u003e",
+              "col4": " \u003c/br\u003e",
+              "col5": " \u003c/br\u003e"
+            },
+            {
+              "col0": "5 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : ELO\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -4932,7 +6254,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -5045,7 +6367,7 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Case Study\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Case Study\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Case Study\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__71530754-cbd9-4e01-a49b-446ca5526953\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__71530754-cbd9-4e01-a49b-446ca5526953\u0027);return false;\"\u003eCase Study\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -5053,15 +6375,15 @@ window.content_data_json = {
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"type : Report\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e type : Report\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"type : Report\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e type : Report\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Report\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ee945a68-31aa-4336-86a9-c297c887c186\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ee945a68-31aa-4336-86a9-c297c887c186\u0027);return false;\"\u003eReport\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -5069,8 +6391,8 @@ window.content_data_json = {
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"reportContent : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e reportContent : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_18.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"reportContent : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e reportContent : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -5168,27 +6490,27 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"SEP\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e SEP\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"SEP\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e SEP\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"TEMP\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e TEMP\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"TEMP\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e TEMP\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"SEMP\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e SEMP\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"SEMP\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e SEMP\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"RFI\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e RFI\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"RFI\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e RFI\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"RFP\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e RFP\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"RFP\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e RFP\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -5246,7 +6568,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -5356,27 +6678,27 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"ASR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e ASR\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"ASR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e ASR\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"SRR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e SRR\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"SRR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e SRR\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"SFR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e SFR\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"SFR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e SFR\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"PDR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e PDR\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"PDR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e PDR\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"CDR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e CDR\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"CDR\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e CDR\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -5406,16 +6728,23 @@ window.content_data_json = {
     ],
     "image_panel": []
   },
+  "Package__2024804f-e7f9-4f16-9e90-adfb8057cf12": {
+    "title": "SCRE",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [],
+    "image_panel": []
+  },
   "Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2": {
     "title": "SCRE - Foundational",
-    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE - Foundational\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__72e02176-e88f-49c2-85d2-170a6ceb1cb2\u0027);return false;\"\u003eSCRE - Foundational\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [],
     "image_panel": []
   },
   "Package__658ef8db-232c-48ec-9ba0-79b8f91b4515": {
     "title": "STEDE",
-    "path": "\u003cdiv title\u003d\"STEDE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__658ef8db-232c-48ec-9ba0-79b8f91b4515\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__658ef8db-232c-48ec-9ba0-79b8f91b4515\u0027);return false;\"\u003eSTEDE\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"STEDE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__658ef8db-232c-48ec-9ba0-79b8f91b4515\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_17.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__658ef8db-232c-48ec-9ba0-79b8f91b4515\u0027);return false;\"\u003eSTEDE\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [],
     "image_panel": []
@@ -5476,15 +6805,15 @@ window.content_data_json = {
           "Architecture__74c1c715-2e10-4b1a-b54a-1cbc843ddead": [
             {
               "x": 575,
-              "y": 242,
-              "width": 91,
-              "height": 1
+              "y": 203,
+              "width": 1,
+              "height": 85
             },
             {
               "x": 575,
-              "y": 196,
-              "width": 1,
-              "height": 92
+              "y": 243,
+              "width": 91,
+              "height": 2
             },
             {
               "x": 666,
@@ -5496,7 +6825,7 @@ window.content_data_json = {
           "Architecture__9c07859a-9882-4a0e-849c-c71189a4ace3": [
             {
               "x": 680,
-              "y": 92,
+              "y": 78,
               "width": 80,
               "height": 74
             }
@@ -5537,6 +6866,14 @@ window.content_data_json = {
             {
               "x": 246,
               "y": 757,
+              "width": 80,
+              "height": 88
+            }
+          ],
+          "Architecture__715a8eb6-527e-475e-9af0-c8b4bbc08197": [
+            {
+              "x": 771,
+              "y": 78,
               "width": 80,
               "height": 88
             }
@@ -5632,9 +6969,9 @@ window.content_data_json = {
           "Architecture__2e46a7e2-e813-49a4-8a94-0732f192639c": [
             {
               "x": 512,
-              "y": 85,
+              "y": 78,
               "width": 140,
-              "height": 111
+              "height": 125
             }
           ],
           "Architecture__71530754-cbd9-4e01-a49b-446ca5526953": [
@@ -5651,7 +6988,7 @@ window.content_data_json = {
   },
   "Diagrams__5f887d8e-f993-419f-9bdc-6bd0e121500b": {
     "title": "STEDE",
-    "path": "\u003cdiv title\u003d\"2 - Use Case Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e2 - Use Case Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"STEDE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__5f887d8e-f993-419f-9bdc-6bd0e121500b\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_10.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__5f887d8e-f993-419f-9bdc-6bd0e121500b\u0027);return false;\"\u003eSTEDE\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"2 - Use Case Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e2 - Use Case Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"STEDE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__5f887d8e-f993-419f-9bdc-6bd0e121500b\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_11.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__5f887d8e-f993-419f-9bdc-6bd0e121500b\u0027);return false;\"\u003eSTEDE\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [
       {
@@ -5888,7 +7225,7 @@ window.content_data_json = {
   },
   "Diagrams__2c12426f-0513-4c2b-8f3d-1df4f9a324a2": {
     "title": "STEDE - Administration",
-    "path": "\u003cdiv title\u003d\"2 - Use Case Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e2 - Use Case Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"STEDE - Administration\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__2c12426f-0513-4c2b-8f3d-1df4f9a324a2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_11.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__2c12426f-0513-4c2b-8f3d-1df4f9a324a2\u0027);return false;\"\u003eSTEDE - Administration\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"2 - Use Case Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e2 - Use Case Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"STEDE - Administration\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__2c12426f-0513-4c2b-8f3d-1df4f9a324a2\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_12.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__2c12426f-0513-4c2b-8f3d-1df4f9a324a2\u0027);return false;\"\u003eSTEDE - Administration\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [],
     "image_panel": [
@@ -5969,7 +7306,7 @@ window.content_data_json = {
   },
   "Diagrams__a90aa392-3f21-4cf2-8d68-4c531a54d8e9": {
     "title": "STEDE - Customization",
-    "path": "\u003cdiv title\u003d\"2 - Use Case Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e2 - Use Case Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"STEDE - Customization\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__a90aa392-3f21-4cf2-8d68-4c531a54d8e9\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_11.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__a90aa392-3f21-4cf2-8d68-4c531a54d8e9\u0027);return false;\"\u003eSTEDE - Customization\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"2 - Use Case Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e2 - Use Case Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"STEDE - Customization\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__a90aa392-3f21-4cf2-8d68-4c531a54d8e9\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_12.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__a90aa392-3f21-4cf2-8d68-4c531a54d8e9\u0027);return false;\"\u003eSTEDE - Customization\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [],
     "image_panel": [
@@ -6042,7 +7379,7 @@ window.content_data_json = {
   },
   "Diagrams__6bf87e89-19da-4524-a33f-8198553838a4": {
     "title": "STEDE - Execution",
-    "path": "\u003cdiv title\u003d\"2 - Use Case Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e2 - Use Case Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"STEDE - Execution\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__6bf87e89-19da-4524-a33f-8198553838a4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_11.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__6bf87e89-19da-4524-a33f-8198553838a4\u0027);return false;\"\u003eSTEDE - Execution\u003ca\u003e\u003c/div\u003e",
+    "path": "\u003cdiv title\u003d\"2 - Use Case Model\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__bee1d4fa-0bb9-4802-bf97-eb7397884391\u0027);return false;\"\u003e2 - Use Case Model\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"STEDE - Execution\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__6bf87e89-19da-4524-a33f-8198553838a4\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_12.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__6bf87e89-19da-4524-a33f-8198553838a4\u0027);return false;\"\u003eSTEDE - Execution\u003ca\u003e\u003c/div\u003e",
     "html_panel": [],
     "grid_panel": [],
     "image_panel": [
@@ -6141,7 +7478,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -6347,23 +7684,23 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"name : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e name : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_19.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"name : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e name : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"login : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e login : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_19.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"login : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e login : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is evaluated using : Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is evaluated using : Exam\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is evaluated using : Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is evaluated using : Exam\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Exam\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__446374cb-e8db-4d03-a685-017102827f19\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__446374cb-e8db-4d03-a685-017102827f19\u0027);return false;\"\u003eExam\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "0..* \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
@@ -6465,8 +7802,8 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"score : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e score : Integer\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_19.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"score : Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e score : Integer\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Integer\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Integer\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -6567,40 +7904,32 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"number : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e number : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_19.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
-              "col3": " \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"is satisfied by : Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is satisfied by : Module\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"is satisfied by : Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e is satisfied by : Module\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"Module\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__e485a82c-71f8-4e2b-8e70-356070ab586f\u0027);return false;\"\u003eModule\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": "1 \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
-              "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\": ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : ELO\u003c/div\u003e\u003c/br\u003e",
+              "col0": "2 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : ELO\u003c/div\u003e\u003c/br\u003e",
               "col2": "\u003cdiv title\u003d\"ELO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__d6e0b07b-e3ba-46aa-89f5-637744b0f77e\u0027);return false;\"\u003eELO\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
+              "col3": "1..* \u003c/br\u003e",
+              "col4": " \u003c/br\u003e",
+              "col5": " \u003c/br\u003e"
+            },
+            {
+              "col0": "3 \u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_15.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"title : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e title : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_19.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
-              "col3": " \u003c/br\u003e",
-              "col4": " \u003c/br\u003e",
-              "col5": " \u003c/br\u003e"
-            },
-            {
-              "col0": "5 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"po : String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_13.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e po : String\u003c/div\u003e\u003c/br\u003e",
-              "col2": "\u003cdiv title\u003d\"String\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_19.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e String\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\": Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e : Competency\u003c/div\u003e\u003c/br\u003e",
+              "col2": "\u003cdiv title\u003d\"Competency\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_3.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8\u0027);return false;\"\u003eCompetency\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
               "col3": " \u003c/br\u003e",
               "col4": " \u003c/br\u003e",
               "col5": " \u003c/br\u003e"
@@ -6646,6 +7975,104 @@ window.content_data_json = {
           }
         ],
         "collapsible": true
+      }
+    ],
+    "image_panel": []
+  },
+  "Diagrams__8c70b233-a344-4d7e-be61-99a5d11d374a": {
+    "title": "TLO",
+    "path": "\u003cdiv title\u003d\"1.2 - Courses\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__168bfaaa-2977-4cca-bfd9-863c92290b72\u0027);return false;\"\u003e1.2 - Courses\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"SCRE\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2024804f-e7f9-4f16-9e90-adfb8057cf12\u0027);return false;\"\u003eSCRE\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"Competencies\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_2.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Package__2667d979-885e-4cde-bdbe-971c1fd3ebdc\u0027);return false;\"\u003eCompetencies\u003ca\u003e\u003c/div\u003e / \u003cdiv title\u003d\"TLO\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__8c70b233-a344-4d7e-be61-99a5d11d374a\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_9.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Diagrams__8c70b233-a344-4d7e-be61-99a5d11d374a\u0027);return false;\"\u003eTLO\u003ca\u003e\u003c/div\u003e",
+    "html_panel": [],
+    "grid_panel": [
+      {
+        "title": "",
+        "hideHeaders": false,
+        "data_store": {
+          "fields": [
+            "col0",
+            "col1",
+            "col2",
+            "col3",
+            "col4"
+          ],
+          "data": [
+            {
+              "col0": "1 ",
+              "col1": "\u003cdiv title\u003d\"13.A\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d\u0027);return false;\"\u003e13.A\u003ca\u003e\u003c/div\u003e",
+              "col2": "\u003cdiv title\u003d\"13.A.1\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e\u0027);return false;\"\u003e13.A.1\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.A.2\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd\u0027);return false;\"\u003e13.A.2\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.A.3\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70\u0027);return false;\"\u003e13.A.3\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.A.4\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8\u0027);return false;\"\u003e13.A.4\u003ca\u003e\u003c/div\u003e\u003c/br\u003e\u003cdiv title\u003d\"13.A.5\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e\u0027);return false;\"\u003e13.A.5\u003ca\u003e\u003c/div\u003e\u003c/br\u003e",
+              "col3": "Student identifies various techniques for designing secure and resilient solutions by utilizing modern techniques throughout the product lifecycle.  ",
+              "col4": "Student can identify difference between system assurance and system resilience. \u003c/br\u003eStudent can identify directives where specific cyber issues are addressed (Guides, GAO Reports reviewed). \u003c/br\u003eStudent will identify techniques for designing secure and resilient solutions from provided material. \u003c/br\u003eStudent will identify applicable emergent cyber solutions, principles, concepts, and techniques described in SCRE Adversity Driven Engineering. \u003c/br\u003eStudent will identify areas the organization needs to address to achieve a resilient system during an adversarial scenario. \u003c/br\u003e"
+            },
+            {
+              "col0": "2 ",
+              "col1": "\u003cdiv title\u003d\"13.B\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175\u0027);return false;\"\u003e13.B\u003ca\u003e\u003c/div\u003e",
+              "col2": "",
+              "col3": "Student Identifies applicable emergent cyber solutions, principles, concepts, and techniques.  ",
+              "col4": " "
+            },
+            {
+              "col0": "3 ",
+              "col1": "\u003cdiv title\u003d\"13.C\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f27583b4-7757-46c0-9121-ee288aaabf92\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__f27583b4-7757-46c0-9121-ee288aaabf92\u0027);return false;\"\u003e13.C\u003ca\u003e\u003c/div\u003e",
+              "col2": "",
+              "col3": "Student summarizes and differentiates the adverse conditions that impact traditional system, networks, and communication deficiencies.  Translate into appropriate requirements. (Demonstrate they can find weaknesses). ",
+              "col4": " "
+            },
+            {
+              "col0": "4 ",
+              "col1": "\u003cdiv title\u003d\"13.D\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b\u0027);return false;\"\u003e13.D\u003ca\u003e\u003c/div\u003e",
+              "col2": "",
+              "col3": "Student gives examples of exposure and likelihood of susceptibilities.  The student will develop the skills needed to conduct vulnerability assessments. ",
+              "col4": " "
+            },
+            {
+              "col0": "5 ",
+              "col1": "\u003cdiv title\u003d\"13.E\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0\u0027);return false;\"\u003e13.E\u003ca\u003e\u003c/div\u003e",
+              "col2": "",
+              "col3": "Student will describe the needs of the organization and ability to achieve secure and resilient systems. Student will distinguish between various defensive approaches and determine best approaches given organization’s constraints. ",
+              "col4": " "
+            },
+            {
+              "col0": "6 ",
+              "col1": "\u003cdiv title\u003d\"13.F\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_6.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e\u003ca\u003e \u003ca href\u003d\"\" target\u003d\"_blank\" onclick\u003d\"navigate(\u0027Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a\u0027);return false;\"\u003e13.F\u003ca\u003e\u003c/div\u003e",
+              "col2": "",
+              "col3": "Outline risk mitigation strategies to the Adaptive Acquisition framework and cyber activities throughout the acquisition lifecycle (engineering V) to show complete Cyber traceability of all requirements to include Test and Evaluation.   ",
+              "col4": " "
+            }
+          ]
+        },
+        "columns": [
+          {
+            "text": "# ",
+            "dataIndex": "col0",
+            "flex": 0,
+            "width": 30
+          },
+          {
+            "text": "Name ",
+            "dataIndex": "col1",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": " : ELO ",
+            "dataIndex": "col2",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": "title : String ",
+            "dataIndex": "col3",
+            "flex": 0,
+            "width": 300
+          },
+          {
+            "text": ":ELO.title : String ",
+            "dataIndex": "col4",
+            "flex": 1,
+            "width": -1
+          }
+        ],
+        "collapsible": false
       }
     ],
     "image_panel": []
@@ -6698,22 +8125,22 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Discussion\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Discussion\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Discussion\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Discussion\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "2 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Model Navigation\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Model Navigation\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Model Navigation\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Model Navigation\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "3 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Model Refinement\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Model Refinement\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Model Refinement\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Model Refinement\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             },
             {
               "col0": "4 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Knowledge Review\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Knowledge Review\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Knowledge Review\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Knowledge Review\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -6791,7 +8218,7 @@ window.content_data_json = {
           "data": [
             {
               "col0": "1 \u003c/br\u003e",
-              "col1": "\u003cdiv title\u003d\"Cameo\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Cameo\u003c/div\u003e\u003c/br\u003e",
+              "col1": "\u003cdiv title\u003d\"Cameo\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Cameo\u003c/div\u003e\u003c/br\u003e",
               "col2": " \u003c/br\u003e"
             }
           ]
@@ -6849,7 +8276,7 @@ window.content_data_json = {
             },
             {
               "col0": "Complexity ",
-              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_14.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
+              "col1": "\u003cdiv title\u003d\"Average Complexity\" style\u003d\"display: inline !important; white-space: nowrap !important; height: 20px;\"\u003e\u003cspan style\u003d\"vertical-align: middle;\"\u003e\u003cimg src\u003d\u0027images/icon_16.png\u0027 width\u003d\u002716\u0027 height\u003d\u002716\u0027 title\u003d\u0027\u0027 style\u003d\"vertical-align: bottom;\"\u003e\u003c/span\u003e Average Complexity\u003c/div\u003e\u003c/br\u003e"
             }
           ]
         },
@@ -7021,11 +8448,6 @@ window.search_data_json = {
       "type": "architecture"
     },
     {
-      "id": "Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33",
-      "name": " : \u003ci\u003eInstance Specification\u003c/i\u003e",
-      "type": "architecture"
-    },
-    {
       "id": "Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3",
       "name": " : \u003ci\u003eInstance Specification\u003c/i\u003e",
       "type": "architecture"
@@ -7036,13 +8458,78 @@ window.search_data_json = {
       "type": "architecture"
     },
     {
-      "id": "Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716",
+      "id": "Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7",
       "name": " : \u003ci\u003eInstance Specification\u003c/i\u003e",
       "type": "architecture"
     },
     {
-      "id": "Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7",
-      "name": " : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "id": "Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520",
+      "name": "13 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d",
+      "name": "13.A : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e",
+      "name": "13.A.1 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd",
+      "name": "13.A.2 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70",
+      "name": "13.A.3 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8",
+      "name": "13.A.4 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e",
+      "name": "13.A.5 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175",
+      "name": "13.B : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__f27583b4-7757-46c0-9121-ee288aaabf92",
+      "name": "13.C : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b",
+      "name": "13.D : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0",
+      "name": "13.E : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a",
+      "name": "13.F : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17",
+      "name": "14 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705",
+      "name": "15 : \u003ci\u003eInstance Specification\u003c/i\u003e",
       "type": "architecture"
     },
     {
@@ -7061,8 +8548,18 @@ window.search_data_json = {
       "type": "architecture"
     },
     {
+      "id": "Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716",
+      "name": "CYB 5610 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
       "id": "Architecture__71530754-cbd9-4e01-a49b-446ca5526953",
       "name": "Case Study : \u003ci\u003eClass\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8",
+      "name": "Competency : \u003ci\u003eClass\u003c/i\u003e",
       "type": "architecture"
     },
     {
@@ -7073,11 +8570,6 @@ window.search_data_json = {
     {
       "id": "Architecture__74c1c715-2e10-4b1a-b54a-1cbc843ddead",
       "name": "Course Module : \u003ci\u003eAssociation Class\u003c/i\u003e",
-      "type": "architecture"
-    },
-    {
-      "id": "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8",
-      "name": "Credential : \u003ci\u003eClass\u003c/i\u003e",
       "type": "architecture"
     },
     {
@@ -7176,13 +8668,18 @@ window.search_data_json = {
       "type": "architecture"
     },
     {
-      "id": "Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110",
-      "name": "Content : \u003ci\u003eObject Diagram\u003c/i\u003e",
+      "id": "Diagrams__84cdb9aa-25a4-4035-a338-25e60261e3db",
+      "name": "Competency : \u003ci\u003eInstance Table\u003c/i\u003e",
       "type": "diagrams"
     },
     {
       "id": "Diagrams__1f7058d0-36b5-4878-a787-3153ea499599",
-      "name": "Credentials : \u003ci\u003eClass Diagram\u003c/i\u003e",
+      "name": "Competency : \u003ci\u003eClass Diagram\u003c/i\u003e",
+      "type": "diagrams"
+    },
+    {
+      "id": "Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110",
+      "name": "Content : \u003ci\u003eObject Diagram\u003c/i\u003e",
       "type": "diagrams"
     },
     {
@@ -7213,6 +8710,11 @@ window.search_data_json = {
     {
       "id": "Diagrams__6bf87e89-19da-4524-a33f-8198553838a4",
       "name": "STEDE - Execution : \u003ci\u003eSysML Use Case Diagram\u003c/i\u003e",
+      "type": "diagrams"
+    },
+    {
+      "id": "Diagrams__8c70b233-a344-4d7e-be61-99a5d11d374a",
+      "name": "TLO : \u003ci\u003eInstance Table\u003c/i\u003e",
       "type": "diagrams"
     }
   ],
@@ -7221,13 +8723,18 @@ window.search_data_json = {
   "test_cases": [],
   "diagrams": [
     {
-      "id": "Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110",
-      "name": "Content : \u003ci\u003eObject Diagram\u003c/i\u003e",
+      "id": "Diagrams__84cdb9aa-25a4-4035-a338-25e60261e3db",
+      "name": "Competency : \u003ci\u003eInstance Table\u003c/i\u003e",
       "type": "diagrams"
     },
     {
       "id": "Diagrams__1f7058d0-36b5-4878-a787-3153ea499599",
-      "name": "Credentials : \u003ci\u003eClass Diagram\u003c/i\u003e",
+      "name": "Competency : \u003ci\u003eClass Diagram\u003c/i\u003e",
+      "type": "diagrams"
+    },
+    {
+      "id": "Diagrams__d70a0e60-2d01-47a9-bad3-23dd20eaa110",
+      "name": "Content : \u003ci\u003eObject Diagram\u003c/i\u003e",
       "type": "diagrams"
     },
     {
@@ -7258,6 +8765,11 @@ window.search_data_json = {
     {
       "id": "Diagrams__6bf87e89-19da-4524-a33f-8198553838a4",
       "name": "STEDE - Execution : \u003ci\u003eSysML Use Case Diagram\u003c/i\u003e",
+      "type": "diagrams"
+    },
+    {
+      "id": "Diagrams__8c70b233-a344-4d7e-be61-99a5d11d374a",
+      "name": "TLO : \u003ci\u003eInstance Table\u003c/i\u003e",
       "type": "diagrams"
     }
   ],
@@ -7371,11 +8883,6 @@ window.search_data_json = {
       "type": "architecture"
     },
     {
-      "id": "Architecture__267f1360-e5bd-4df4-92ff-95f98061ea33",
-      "name": " : \u003ci\u003eInstance Specification\u003c/i\u003e",
-      "type": "architecture"
-    },
-    {
       "id": "Architecture__f8a2b478-6ad6-43a5-aa4f-9bf34cf29fe3",
       "name": " : \u003ci\u003eInstance Specification\u003c/i\u003e",
       "type": "architecture"
@@ -7386,13 +8893,78 @@ window.search_data_json = {
       "type": "architecture"
     },
     {
-      "id": "Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716",
+      "id": "Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7",
       "name": " : \u003ci\u003eInstance Specification\u003c/i\u003e",
       "type": "architecture"
     },
     {
-      "id": "Architecture__bff179a0-733e-4c6b-8cf1-488cfe6a5da7",
-      "name": " : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "id": "Architecture__96c87a82-208d-4d4c-9cd5-c5ea25378520",
+      "name": "13 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__c5c5c911-9851-45c2-8dd6-8ecffd28b38d",
+      "name": "13.A : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__8b537f02-9d20-4b7c-87bd-616c182bfb4e",
+      "name": "13.A.1 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__ff9f9acc-d954-4cc7-99fc-05f5920be8cd",
+      "name": "13.A.2 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__fbfd7cb3-32b8-4d9f-843a-4c43009dba70",
+      "name": "13.A.3 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__7fa931bd-8894-41b9-b542-ff2b69d1ced8",
+      "name": "13.A.4 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__0119b388-632a-47b2-bc64-fd2f04a4bc0e",
+      "name": "13.A.5 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__65f2d020-d3a7-4081-a3d5-f27b86e18175",
+      "name": "13.B : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__f27583b4-7757-46c0-9121-ee288aaabf92",
+      "name": "13.C : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__ec7db265-8418-4aa0-83ca-e0d72e4fb09b",
+      "name": "13.D : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__202bdf67-564a-4b08-8c1c-05b836b2a8b0",
+      "name": "13.E : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__2062e8c2-024e-49f4-a67d-9687630f3a0a",
+      "name": "13.F : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__7cc0bada-a468-40e5-a1f0-eaa3de25ee17",
+      "name": "14 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__3e45b883-87ee-4470-951d-fa8ba16cb705",
+      "name": "15 : \u003ci\u003eInstance Specification\u003c/i\u003e",
       "type": "architecture"
     },
     {
@@ -7411,8 +8983,18 @@ window.search_data_json = {
       "type": "architecture"
     },
     {
+      "id": "Architecture__f210dbb0-3cc2-43e3-82e5-f08f818e2716",
+      "name": "CYB 5610 : \u003ci\u003eInstance Specification\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
       "id": "Architecture__71530754-cbd9-4e01-a49b-446ca5526953",
       "name": "Case Study : \u003ci\u003eClass\u003c/i\u003e",
+      "type": "architecture"
+    },
+    {
+      "id": "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8",
+      "name": "Competency : \u003ci\u003eClass\u003c/i\u003e",
       "type": "architecture"
     },
     {
@@ -7423,11 +9005,6 @@ window.search_data_json = {
     {
       "id": "Architecture__74c1c715-2e10-4b1a-b54a-1cbc843ddead",
       "name": "Course Module : \u003ci\u003eAssociation Class\u003c/i\u003e",
-      "type": "architecture"
-    },
-    {
-      "id": "Architecture__b190f6ec-93de-4389-9ea1-0e57372446f8",
-      "name": "Credential : \u003ci\u003eClass\u003c/i\u003e",
       "type": "architecture"
     },
     {
